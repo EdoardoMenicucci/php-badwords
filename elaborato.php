@@ -2,6 +2,7 @@
 <!-- QUA CODICE IN PHP DATI DA RICEVERE -->
 <?php 
     $testo = $_GET["testo"];
+    $brutto = $_GET["brutto"]
 ?>
 
 
@@ -22,6 +23,11 @@
         echo strlen($testo)
     ?>
     </h4>
+    <br>
+    <?php 
+        $testobrutto = str_replace('cane', '****',$brutto);
+        echo $testobrutto
+    ?>
     <form action="index.php">
         <button type="submit">Torna alla pagina precedente</button>
     </form>

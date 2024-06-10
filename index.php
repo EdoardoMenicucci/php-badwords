@@ -8,7 +8,8 @@
 <body>
     <h4>inserisci del testo</h4>
     <form action="elaborato.php" method="GET">
-        <input type="text" name="testo">
+        <input type="text" name="testo" placeholder="inserisci del testo">
+        <input type="text" name="brutto" placeholder="inserisci del BRUTTO testo">
         <button type="submit">Invia</button>
     </form>
     
