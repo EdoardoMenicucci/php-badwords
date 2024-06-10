@@ -26,7 +26,7 @@
     <br>
     <h4>
     <?php 
-        $testobrutto = str_replace('cane', '****',$brutto);
+        $testobrutto = str_replace('cane', '***',$brutto);
         echo $testobrutto
     ?>
     <br>
