@@ -24,10 +24,18 @@
     ?>
     </h4>
     <br>
+    <h4>
     <?php 
         $testobrutto = str_replace('cane', '****',$brutto);
         echo $testobrutto
     ?>
+    <br>
+    la lunghezza del testo: <br>
+    <?php 
+        ;
+        echo strlen($testobrutto)
+    ?>
+    </h4>
     <form action="index.php">
         <button type="submit">Torna alla pagina precedente</button>
     </form>
